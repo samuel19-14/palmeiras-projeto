@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+
+
+
+.nav {
+    display: flex;
+    background-color: rgb(6, 78, 24);
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+
+div {
+    background-color: rgb(6, 78, 24);
+}
+
+a {
+    display: inline;
+    background-color: rgb(6, 78, 24);
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+    align-items: center;
+    justify-content: center;
+    border: 2px, solid, white;
+    padding: 3px;
+    border-radius: 21px;
+}
+
+.nav img  {
+    width: 100px;
+    justify-content: end;
+    align-self: flex-end;
+}
+
+main {
+    margin-inline: 30px;
+    padding: 1p;
+    border: solid 5px black;
+    border-radius: 30px;
+}
+
+main p, h1, h2, h3 {
+     background-color: rgb(6, 78, 24);
+
+}
+
+
