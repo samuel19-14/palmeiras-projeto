@@ -2,52 +2,89 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: aliceblue;
 }
 
 
-
-.nav {
+nav {
     display: flex;
-    background-color: rgb(6, 78, 24);
-    align-items: center;
     justify-content: space-between;
-    padding-right: 50px;
+    align-items: center;
+    height: 163px;
+    width: 1000px;
+    background-color: rgb(0, 103, 52);
+    margin-inline: auto;
 }
 
-div {
-    background-color: rgb(6, 78, 24);
-}
-
-a {
+.divnav {
     display: inline;
-    background-color: rgb(6, 78, 24);
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    margin-right: 400px;
+}
+
+nav div a {
     text-decoration: none;
     color: white;
-    margin: 15px;
-    align-items: center;
-    justify-content: center;
-    border: 2px, solid, white;
-    padding: 3px;
-    border-radius: 21px;
-}
-
-.nav img  {
-    width: 100px;
-    justify-content: end;
-    align-self: flex-end;
+    font-size: 25px;
+    border: 2.5px solid white;
+    border-radius: 12px;
+    padding: 5px;
 }
 
 main {
-    margin-inline: 30px;
-    padding: 1p;
-    border: solid 5px black;
-    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    margin-inline: auto;
+    width: 1000px;
+    margin-top: 10px;
+    padding: 5px;
+    color: rgb(5, 90, 24);
+    background-color: azure;
 }
 
-main p, h1, h2, h3 {
-     background-color: rgb(6, 78, 24);
-
+#sep {
+    display: flex;
+    justify-content: center;
+    margin-left: 6px;
+    font-size: 26px;
 }
+
+#historia {
+    padding: 10px;
+    h1 {
+        text-align: center;
+        font: normal 900 35px serif;
+    }
+}
+
+.historia {
+    margin: 2px;
+    margin-bottom: 8px;
+    padding: 10px;
+    text-align: justify;
+    color: azure;
+    background: rgb(0, 103, 52);
+    border-radius: 20px;
+}
+
+ .h2 {
+       display: flex;
+       justify-content: center;
+       margin: 7px;
+       h2 {
+        margin: 1px;
+        padding: 5px;
+        color: rgb(0, 103, 52);
+        background: rgb(138, 248, 156);
+        border-radius: 10px;
+        font-size: 25px;
+       }
+    }
+
+
+
+
+
 
 
