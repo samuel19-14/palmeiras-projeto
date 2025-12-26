@@ -9,23 +9,23 @@
     justify-content: flex-start;
     align-items: center;
     width: 1000px;
-    height: 160px;
+    height: 140px;
     margin-inline: auto;
     background: rgb(0, 103, 52);
 }
 
 .divnav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 300px;
-    margin-left: 400px;
+    margin-left: 480px;
 }
 
 .img {
     display: flex;
-    margin-left: 8px;
+    margin-left: 15px;
     img{
-        height: 140px;
+        height: 100px;
     }
 }
 
@@ -78,7 +78,8 @@ main {
     margin: 2px;
     margin-bottom: 8px;
     padding: 10px;
-    padding-inline: 15px;
+    padding-inline: 0px;
+    width: 700px;
     text-align: justify;
     color: azure;
     background: rgb(0, 103, 52);
@@ -89,16 +90,41 @@ main {
        display: flex;
        justify-content: center;
        margin: 7px;
-       h2 {
-        margin: 1px;
-        padding: 5px;
-        color: rgb(0, 103, 52);
-        background-color:azure ;
-        border-radius: 10px;
-        font-size: 25px;
-       }
+        h2 {
+            margin: 1px;
+            padding: 5px;
+            color: rgb(0, 103, 52);
+            background-color:azure ;
+            border-radius: 10px;
+            font-size: 25px;
+        }
     }
 
+.parag {
+    margin: 10px;
+    padding: 5px;
+   
+}
+
+.h3 {
+      display: flex;
+      justify-content: center;
+      width: 700px;
+      margin-inline: 0px;
+      color: rgb(5, 90, 24);
+      background-color: azure;
+        h3 {
+            font: normal 1000 21px open;
+        }
+    }
+
+.paragh3 {
+    margin: 9px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(244, 244, 244);
+    color: black;
+}
 
 
 
