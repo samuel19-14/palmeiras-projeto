@@ -4,15 +4,41 @@
     box-sizing: border-box;
 }
 
-nav {
+.nav {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     width: 1000px;
+    height: 160px;
     margin-inline: auto;
     background: rgb(0, 103, 52);
 }
 
+.divnav {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-left: 400px;
+}
+
+.img {
+    display: flex;
+    margin-left: 8px;
+    img{
+        height: 140px;
+    }
+}
+
+.anav {
+    padding: 5.5px;
+    font-size: 23px;
+    font-weight: 700;
+    border: 4px solid rgb(3, 170, 70);
+    border-radius: 20px;
+    text-decoration: none;
+    color: rgb(0, 103, 52);  
+    background: whitesmoke;   
+}
 
 main {
     display: flex;
@@ -27,9 +53,17 @@ main {
 
 #sep {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     margin-left: 6px;
     font-size: 26px;
+    h1{
+        margin-block: 29px;
+    }
+}
+
+.logosmain {
+    width: 200px;
+    height: 200px;
 }
 
 #historia {
@@ -44,6 +78,7 @@ main {
     margin: 2px;
     margin-bottom: 8px;
     padding: 10px;
+    padding-inline: 15px;
     text-align: justify;
     color: azure;
     background: rgb(0, 103, 52);
@@ -58,7 +93,7 @@ main {
         margin: 1px;
         padding: 5px;
         color: rgb(0, 103, 52);
-        background: rgb(138, 248, 156);
+        background-color:azure ;
         border-radius: 10px;
         font-size: 25px;
        }
