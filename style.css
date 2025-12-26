@@ -4,33 +4,15 @@
     box-sizing: border-box;
 }
 
-
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    height: 163px;
     width: 1000px;
-    background-color: rgb(0, 103, 52);
     margin-inline: auto;
+    background: rgb(0, 103, 52);
 }
 
-.divnav {
-    display: inline;
-    display: flex;
-    width: 300px;
-    justify-content: space-between;
-    margin-right: 400px;
-}
-
-nav div a {
-    text-decoration: none;
-    color: white;
-    font-size: 25px;
-    border: 2.5px solid white;
-    border-radius: 12px;
-    padding: 5px;
-}
 
 main {
     display: flex;
