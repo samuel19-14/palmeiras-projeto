@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+header {
+     background: rgb(0, 103, 52);
+     position: fixed;
+     width: 100%;
+     z-index: 10;
+}
+
+nav {
+    display: flex;
+    width: 100rem;
+    height: 14rem;
+    margin-inline: auto;
+    justify-content: space-around;
+    align-items: center;
+    img {
+        height: 10rem;
+        margin-left: 1.5rem;
+    }
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    width: 40rem;
+    list-style: none;
+    li {
+        a {
+            padding: .5rem;
+            font-size: 2.3rem;
+            font-weight: 700;
+            border: .4rem solid rgb(3, 170, 70);
+            border-radius: 2rem;
+            text-decoration: none;
+            color: rgb(0, 103, 52);  
+            background: whitesmoke;          
+         }
+    }
+}
+
+li:hover {
+    transform: scale(1.1);
+    font-weight: 900;
+    transition: .3s;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 14.7rem;
+    width: 100rem;
+    margin-inline: auto;
+    background-color: azure;
+    border: inset .3rem greenyellow;
+}
+
+.TeL {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    h1{
+        font-size: 4rem;
+        background-color: rgb(104, 173, 135);
+        padding: .9rem;
+        border-radius: 2.7rem;
+        color: #FFF;
+        margin-left: .2rem;
+    }
+    p {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+}
+
+.idolos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-inline: 3rem;
+    padding: 2rem;
+    margin-block: 2rem;
+    border: outset .4rem rgb(0, 103, 52);
+    border-radius: 2rem;
+    background: rgb(190, 222, 212);
+    img{
+        height: 30rem;
+        width: 30rem;
+        border-radius: 50%;
+    }
+    .text-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 50rem;
+    }
+    h2 {
+        margin-bottom: 1.7rem ;
+        font-size: 3rem;
+    }
+    p { 
+        width: 50rem;
+        font-size: 2.3rem;
+        text-align: justify;
+    }
+}
+
+
