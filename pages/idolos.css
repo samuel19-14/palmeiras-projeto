@@ -13,7 +13,7 @@ body {
 }
 
 header {
-     background: rgb(0, 103, 52);
+     background: rgb(10, 122, 66);
      position: fixed;
      width: 100%;
      z-index: 10;
@@ -28,21 +28,20 @@ nav {
     align-items: center;
     img {
         height: 10rem;
-        margin-left: 1.5rem;
     }
 }
 
 ul {
     display: flex;
     justify-content: space-around;
-    width: 40rem;
+    width: 35rem;
     list-style: none;
     li {
         a {
             padding: .5rem;
             font-size: 2.3rem;
             font-weight: 700;
-            border: .4rem solid rgb(3, 170, 70);
+            border: .4rem inset rgb(7, 163, 51);
             border-radius: 2rem;
             text-decoration: none;
             color: rgb(0, 103, 52);  
@@ -100,6 +99,7 @@ main {
         height: 30rem;
         width: 30rem;
         border-radius: 50%;
+        border: .3rem solid;
     }
     .text-container {
         display: flex;
@@ -114,6 +114,7 @@ main {
     p { 
         width: 50rem;
         font-size: 2.3rem;
+        line-height: 3rem;
         text-align: justify;
     }
 }

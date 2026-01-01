@@ -13,7 +13,7 @@ body {
 }
 
 header {
-     background: rgb(0, 103, 52);
+     background: rgb(10, 122, 66);
      position: fixed;
      width: 100%;
      z-index: 10;
@@ -28,7 +28,6 @@ nav {
     margin-inline: auto;
         img {
     height: 10rem;
-    margin-left: 1.5rem;
 }
 
 ul {
@@ -51,7 +50,7 @@ ul {
     padding: .5rem;
     font-size: 2.3rem;
     font-weight: 700;
-    border: .4rem solid rgb(3, 170, 70);
+    border: .4rem inset rgb(7, 163, 51);
     border-radius: 2rem;
     text-decoration: none;
     color: rgb(0, 103, 52);  
