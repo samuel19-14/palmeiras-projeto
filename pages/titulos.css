@@ -49,37 +49,63 @@ nav {
     }
 }
 
+nav li:hover {
+            transform: scale(1.1);
+            font-weight: 900;
+            transition: .3s;
+   }
+
+
 main {
     position: relative;
     top: 15rem;
     width: 100rem;
     margin-inline: auto;
-    background-color: rgb(146, 212, 146);
+    background-color:darkseagreen;
     padding: 1rem 2rem;
+    border-radius: 1rem;
 }
 
-h1 {
+.h1 {
+    display: flex;
+    justify-content: center;
+    h1 {
+    display: block;
+    margin-bottom: .3rem;
+    padding: .8rem;
+    border-radius: 3rem;
+    color: rgb(8, 117, 8);
+    background-color: azure;
+    }
+    p {
+    display: block;
     text-align: center;
-    font-size: 5rem;
+    margin-bottom: 1rem;
+    color: red;
+    }
+
 }
 
 h2 {
     text-align: center;
-}
-
-p {
-    text-align: center;
-    color: red;
+    color:azure;
+    font-size: 3rem;
 }
 
 .lista {
     display: flex;
     flex-direction: column;
-    padding-inline: 2rem;
-    background-color: green;
+    padding-block: 1rem;
+    padding-inline: 2.5rem 1rem;
+    border: .5rem solid green;
+    border-bottom: 1rem solid gray;
+    
+    background-color:honeydew;
+    list-style-position: inside;
     li{
         font-size: 2rem;
         font-weight: 600;
         padding-block: .7rem;
+        list-style: square;
     }
 }
