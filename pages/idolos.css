@@ -21,7 +21,7 @@ header {
 
 nav {
     display: flex;
-    width: 100rem;
+    max-width: 100rem;
     height: 14rem;
     margin-inline: auto;
     justify-content: space-around;
@@ -61,7 +61,7 @@ main {
     flex-direction: column;
     position: relative;
     top: 14.7rem;
-    width: 100rem;
+    max-width: 100rem;
     margin-inline: auto;
     background-color: azure;
     border: inset .3rem greenyellow;
