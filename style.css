@@ -64,7 +64,7 @@ main {
     align-items: center;
     margin-inline: auto;
     padding-bottom: .1rem;
-    max-width: 100rem;
+    width: 100rem;
     padding: .5rem;
     color: rgb(5, 90, 24);
     background-color: azure;
@@ -163,6 +163,7 @@ a:hover {
     transition: .1s;
     }
 
+   
 
 
 

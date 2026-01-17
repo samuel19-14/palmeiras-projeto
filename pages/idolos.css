@@ -112,11 +112,12 @@ main {
         font-size: 3rem;
     }
     p { 
-        width: 50rem;
+        max-width: 50rem;
         font-size: 2.3rem;
         line-height: 3rem;
         text-align: justify;
     }
+
 }
 
-
+ 
